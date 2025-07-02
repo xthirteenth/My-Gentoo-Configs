@@ -1,6 +1,6 @@
 # Gentoo configs by skreamer(mvko)
 
-WM: DWM(x11)
+WM: Hyprland(Wayland)
 INIT: systemd
 DISTRO: Gentoo
 KERNEL: Custom and Gentoo-dist(config later)

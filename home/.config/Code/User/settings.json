@@ -1,0 +1,14 @@
+{
+  "workbench.colorTheme": "Absolute Black",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorBlinking": "expand",
+  "editor.fontLigatures": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true
+}

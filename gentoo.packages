@@ -1,4 +1,7 @@
-gui-apps/rofi
+gui-apps/rofi-wayland
+gui-apps/swaync
+gui-apps/waybar
+gui-apps/hyprpaper
 
 app-misc/ranger
 
@@ -24,3 +27,5 @@ www-apps/grafana-bin
 app-metrics/prometheus
 
 app-shell/zsh
+
+gui-wm/hyprland

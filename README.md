@@ -4,4 +4,4 @@ WM: Hyprland(Wayland)
 INIT: systemd
 DISTRO: Gentoo
 KERNEL: Custom and Gentoo-dist(config later)
-FS: ZFS
+FS: ext4

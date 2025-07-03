@@ -4,5 +4,5 @@ bat
 dust
 fastfetch
 
-wezterm:
+kitty:
 tmux

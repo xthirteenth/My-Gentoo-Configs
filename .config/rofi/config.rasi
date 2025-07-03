@@ -13,4 +13,4 @@ configuration{
     border-radius: 10;
 }
 
-@theme "~/.config/rofi/themes/catppuccin-macchiato.rasi"
+@theme "~/.config/rofi/themes/black-white.rasi"

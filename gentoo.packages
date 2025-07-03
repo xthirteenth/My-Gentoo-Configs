@@ -3,18 +3,21 @@ gui-apps/swaync
 gui-apps/waybar
 gui-apps/hyprpaper
 
+app-eselect/eselect-repository
+app-portage/gentoolkit
+
 app-misc/ranger
 
-gui-libs/xdg-desktop-portal
+gui-libs/xdg-desktop-portal-hyprland
 
 app-editors/vscode
 app-editors/neovim
 
-net-im/telegram-desktop
+net-im/telegram-desktop-bin
 
 www-client/firefox-bin
 
-x11-terms/wezterm
+x11-terms/kitty
 
 app-containers/docker-compose
 app-containers/docker-cli
@@ -29,3 +32,5 @@ app-metrics/prometheus
 app-shell/zsh
 
 gui-wm/hyprland
+
+guru::ly

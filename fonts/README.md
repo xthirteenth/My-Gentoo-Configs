@@ -1,0 +1,1 @@
+doas cp -r jetbrainsmono-nerd-font /usr/share/fonts/

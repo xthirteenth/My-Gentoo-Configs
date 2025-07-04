@@ -118,7 +118,7 @@
 
   // Settings
   "custom/settings": {
-    "format": "",
+    "format": "󰛱",
     "on-click": "$HOME/.config/waybar/scripts/swaync.sh",
     "tooltip": false,
     "interval": 1

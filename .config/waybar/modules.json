@@ -161,7 +161,7 @@
 
   // Rofi Application Launcher
   "custom/appmenu": {
-    "format": "Apps",
+    "format": "",
     "on-click": "rofi -show drun -replace",
     "on-click-right": "~/.config/hypr/scripts/keybindings.sh",
     "tooltip": false
@@ -283,7 +283,7 @@
     "format-alt": "{icon}  {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": [" ", " ", " ", " ", " "]
+    "format-icons": [" ", " ", " ", " ", " "]
   },
 
   // Pulseaudio
@@ -332,5 +332,13 @@
       "deactivated": ""
     },
     "on-click-right": "hyprlock"
+  },
+
+  "custom/swaync": {
+    "format": "",
+    "tooltip": false,
+    "exec": "echo 󱜽",
+    "on-click": "swaync-client -t",
+    "interval": 5
   }
 }

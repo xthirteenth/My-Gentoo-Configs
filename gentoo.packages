@@ -2,6 +2,10 @@ gui-apps/rofi-wayland
 gui-apps/swaync
 gui-apps/waybar
 gui-apps/hyprpaper
+gui-apps/wl-clipboard
+gui-apps/wl-clip-persist
+
+app-crypt/mit-krb5
 
 app-eselect/eselect-repository
 app-portage/gentoolkit

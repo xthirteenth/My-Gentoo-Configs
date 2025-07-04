@@ -54,9 +54,7 @@
         "bluetooth",
         "battery",
         "network",
-        "custom/cliphist",
-        "custom/hypridle",
-        "custom/hyprshade",
+        "custom/swaync",
         "custom/exit",
         "clock"
     ]

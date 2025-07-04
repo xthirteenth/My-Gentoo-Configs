@@ -29,7 +29,7 @@
  * ----------------------------------------------------- */
 
 * {
-  font-family: "JetBrainsMono Nerd";
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font", "FiraCode Nerd Font", "MesloLG Nerd Font", monospace;
   border: none;
   border-radius: 0px;
 }

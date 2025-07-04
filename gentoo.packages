@@ -4,6 +4,7 @@ gui-apps/waybar
 gui-apps/hyprpaper
 gui-apps/wl-clipboard
 gui-apps/wl-clip-persist
+gui-apps/wlogout
 
 app-crypt/mit-krb5
 

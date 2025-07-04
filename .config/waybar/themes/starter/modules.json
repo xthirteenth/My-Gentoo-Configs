@@ -207,26 +207,26 @@
 
   // CPU
   "cpu": {
-    "format": "/ C {usage}% ",
-    "on-click": "alacritty -e htop"
+    "format": "| 󰻠 : {usage}% |",
+    "on-click": "kitty -e htop"
   },
 
   // Memory
   "memory": {
-    "format": "/ M {}% ",
-    "on-click": "alacritty -e htop"
+    "format": " 󰍛 : {}% |",
+    "on-click": "kitty -e htop"
   },
 
   // Harddisc space used
   "disk": {
     "interval": 30,
-    "format": "D {percentage_used}% ",
+    "format": "  : {percentage_used}% |",
     "path": "/",
-    "on-click": "alacritty -e htop"
+    "on-click": "kitty -e htop"
   },
 
   "hyprland/language": {
-    "format": "/ K {short}"
+    "format": "󰌌 : {short}"
   },
 
   // Group Hardware
@@ -237,7 +237,7 @@
       "children-class": "not-memory",
       "transition-left-to-right": false
     },
-    "modules": ["custom/system", "disk", "cpu", "memory", "hyprland/language"]
+    "modules": ["disk", "cpu", "memory"]
   },
 
   // Group Settings

@@ -55,7 +55,7 @@
         "battery",
         "network",
         "custom/swaync",
-        "custom/exit",
-        "clock"
+        "clock",
+        "custom/exit"
     ]
 }

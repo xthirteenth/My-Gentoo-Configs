@@ -36,13 +36,13 @@
         "custom/settings",
         //"wlr/taskbar",
         "group/quicklinks",
-        "hyprland/window",
-        "custom/starter"
+        "hyprland/window"
     ],
 
     // Modules Center
     "modules-center": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "hyprland/language"
     ],
 
     // Modules Right    
@@ -53,13 +53,11 @@
         "bluetooth",
         "battery", 
         "network",
-        "group/hardware",
         "custom/cliphist",
         "custom/hypridle",
         "custom/hyprshade",
         "tray",
         "custom/exit",
-        "custom/ml4w-welcome",
         "clock"
     ]
 }

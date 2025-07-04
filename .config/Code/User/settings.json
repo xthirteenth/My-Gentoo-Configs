@@ -1,8 +1,8 @@
 {
   "workbench.colorTheme": "Absolute Black",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
-  "editor.fontFamily": "JetBrains Mono",
+  "workbench.productIconTheme": "el-vsc-v1-icons",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.cursorBlinking": "expand",

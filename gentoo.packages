@@ -1,3 +1,5 @@
+gentoo::
+
 gui-apps/rofi-wayland
 gui-apps/swaync
 gui-apps/waybar
@@ -12,6 +14,7 @@ app-eselect/eselect-repository
 app-portage/gentoolkit
 
 app-misc/ranger
+app-misc/fastfetch
 
 gui-libs/xdg-desktop-portal-hyprland
 
@@ -38,4 +41,11 @@ app-shell/zsh
 
 gui-wm/hyprland
 
-guru::ly
+sys-block/dust
+
+sys-apps/lsd
+sys-apps/bat
+
+guru::
+
+x11-misc/ly

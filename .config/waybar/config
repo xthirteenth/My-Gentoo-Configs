@@ -48,15 +48,13 @@
 
     // Modules Right    
     "modules-right": [
-        "pulseaudio",
-        //"backlight",
+        "custom/volume",
+        "custom/temperature",
         "cpu",
         "memory",
         "disk",
         "bluetooth",
         "battery",
-        "network",
-        "custom/swaync",
         "clock",
         "custom/exit"
     ]

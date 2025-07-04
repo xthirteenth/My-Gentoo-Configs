@@ -52,6 +52,10 @@ sys-apps/bat
 
 sys-process/htop
 
+media-sound/pulseaudio
+media-sound/pavucontrol
+media-sound/pamixer
+
 guru::
 
 x11-misc/ly

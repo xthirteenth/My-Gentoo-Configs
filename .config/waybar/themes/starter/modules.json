@@ -25,6 +25,12 @@
     }
   },
 
+  "custom/temperature": {
+    "exec": "~/.config/waybar/scripts/cputemp.sh",
+    "interval": 5,
+    "return-type": "text"
+  },
+
   "custom/telegram": {
     "format": "",
     "tooltip": "Открыть Telegram",
@@ -300,24 +306,21 @@
     "format-icons": [" ", " ", " ", " ", " "]
   },
 
+  "custom/volume": {
+    "exec": "~/.config/waybar/scripts/volume.sh",
+    "interval": 3,
+    "return-type": "plain",
+    "on-click": "pavucontrol",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+  },
+
   // Pulseaudio
   "pulseaudio": {
     // "scroll-step": 1, // %, can be a float
-    "format": "{icon} {volume}%",
-    "format-bluetooth": "{volume}%  {icon} {format_source}",
-    "format-bluetooth-muted": "  {icon} {format_source}",
-    "format-muted": "  {format_source}",
-    "format-source": "{volume}% ",
-    "format-source-muted": "",
-    "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "car": "",
-      "default": ["", " ", " "]
-    },
+    "format": "󰕾 : {volume}%",
+    "format-muted": "  ",
+    "scroll-step": 5,
     "on-click": "pavucontrol"
   },
 

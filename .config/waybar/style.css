@@ -35,6 +35,26 @@
   border-radius: 0px;
 }
 
+#custom-user_host {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-weight: bold;
+  font-family: "JetBrains Mono Nerd Font";
+}
+
+#custom-telegram {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-weight: bold;
+  font-family: "JetBrains Mono Nerd Font";
+}
+
 window#waybar {
   background-color: rgba(0, 0, 0, 0.2);
   border-bottom: 0px solid #ffffff;
@@ -177,6 +197,7 @@ window#waybar.empty #window {
 #custom-quicklink8,
 #custom-quicklink9,
 #custom-quicklink10,
+#custom-telegram,
 #custom-waybarthemes {
   margin-right: 23px;
   font-size: 20px;

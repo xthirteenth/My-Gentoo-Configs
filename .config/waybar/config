@@ -36,12 +36,14 @@
         "custom/settings",
         //"wlr/taskbar",
         "group/quicklinks",
-        "hyprland/window",
+        "custom/telegram",
+        "hyprland/window"
     ],
 
     // Modules Center
     "modules-center": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "custom/user_host"
     ],
 
     // Modules Right    

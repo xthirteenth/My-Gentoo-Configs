@@ -25,6 +25,19 @@
     }
   },
 
+  "custom/telegram": {
+    "format": "",
+    "tooltip": "Открыть Telegram",
+    "on-click": "telegram-desktop",
+    "interval": 3600
+  },
+
+  "custom/user_host": {
+    "format": "{}",
+    "exec": "echo $USER@$(hostname)",
+    "interval": 3600
+  },
+
   // Taskbar
   "wlr/taskbar": {
     "format": "{icon}",

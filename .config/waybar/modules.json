@@ -119,8 +119,9 @@
   // Settings
   "custom/settings": {
     "format": "",
-    "on-click": "~/.config/ml4w/apps/ML4W_Dotfiles_Settings-x86_64.AppImage",
-    "tooltip": false
+    "on-click": "$HOME/.config/waybar/scripts/swaync.sh",
+    "tooltip": false,
+    "interval": 1
   },
 
   // Keybindings
@@ -332,13 +333,5 @@
       "deactivated": ""
     },
     "on-click-right": "hyprlock"
-  },
-
-  "custom/swaync": {
-    "format": "",
-    "tooltip": false,
-    "exec": "echo 󱜽",
-    "on-click": "swaync-client -t",
-    "interval": 5
   }
 }

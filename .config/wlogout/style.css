@@ -1,0 +1,31 @@
+window {
+    background-color: rgba(0, 0, 0, 0.9); /* фон экрана */
+}
+
+button {
+    background-color: #000000;          /* чёрный фон кнопки */
+    color: #FFFFFF;                     /* белый текст */
+    font-family: "JetBrains Mono Nerd Font", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;                /* скруглённые углы */
+    border: 2px solid #FFFFFF;
+    margin: 20px;
+    padding: 20px 40px;
+    background-image: none;             /* убираем иконки */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0;                 /* полностью отключить иконки */
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+button:focus {
+    outline: none;
+    border: 2px solid #FFFFFF;
+}

@@ -29,8 +29,7 @@
  * ----------------------------------------------------- */
 
 * {
-  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font",
-    "FiraCode Nerd Font", "MesloLG Nerd Font", monospace;
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font", "FiraCode Nerd Font", "MesloLG Nerd Font", monospace;
   border: none;
   border-radius: 0px;
 }
@@ -38,7 +37,6 @@
 window#waybar {
   background-color: rgba(0, 0, 0, 0.2);
   border-bottom: 0px solid #ffffff;
-
   /* color: #FFFFFF; */
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -106,7 +104,7 @@ tooltip label {
   background: @backgroundlight;
   margin: 10px 15px 10px 0px;
   padding: 2px 10px 0px 10px;
-  border-radius: 15px;
+  border-radius: 12px;
   color: @textcolor2;
   font-size: 16px;
   font-weight: normal;

@@ -7,6 +7,8 @@ gui-apps/hyprpaper
 gui-apps/wl-clipboard
 gui-apps/wl-clip-persist
 gui-apps/wlogout
+gui-apps/grim
+gui-apps/slurp
 
 app-crypt/mit-krb5
 

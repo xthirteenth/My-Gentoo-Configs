@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Screenshot
+Comment=Screenshot
+Exec=/home/mvko/.config/rofi/scripts/screenshot.sh
+Icon=/home/mvko/icons/screenshot.png
+Terminal=false
+Type=Application
+Categories=Utility

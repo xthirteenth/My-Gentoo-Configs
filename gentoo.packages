@@ -56,6 +56,8 @@ media-sound/pulseaudio
 media-sound/pavucontrol
 media-sound/pamixer
 
+dev-util/ccache
+
 guru::
 
 x11-misc/ly

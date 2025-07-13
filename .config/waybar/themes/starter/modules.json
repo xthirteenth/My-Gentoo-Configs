@@ -14,10 +14,15 @@
     "on-click": "activate",
     "active-only": false,
     "all-outputs": true,
-    "format": "{}",
+    "format": "{icon}",
     "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
       "urgent": "",
-      "active": "",
+      "active": "",
       "default": ""
     },
     "persistent-workspaces": {
@@ -181,7 +186,7 @@
 
   // Rofi Application Launcher
   "custom/appmenu": {
-    "format": "Apps",
+    "format": "Apps | 󰶭",
     "on-click": "rofi -show drun -replace",
     "on-click-right": "~/.config/hypr/scripts/keybindings.sh",
     "tooltip": false

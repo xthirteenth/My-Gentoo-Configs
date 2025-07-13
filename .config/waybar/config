@@ -43,7 +43,7 @@
     // Modules Center
     "modules-center": [
         "hyprland/workspaces",
-        "custom/user_host"
+        "custom/icons"
     ],
 
     // Modules Right    

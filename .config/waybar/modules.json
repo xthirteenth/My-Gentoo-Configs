@@ -16,8 +16,13 @@
     "all-outputs": true,
     "format": "{}",
     "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
       "urgent": "",
-      "active": "",
+      "active": "",
       "default": ""
     },
     "persistent-workspaces": {

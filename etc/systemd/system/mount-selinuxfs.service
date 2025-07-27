@@ -1,0 +1,13 @@
+[Unit]
+Description=Mount selinuxfs
+DefaultDependencies=no
+Before=sysinit.target
+ConditionPathExists=!/sys/fs/selinux/enforce
+
+[Service]
+Type=oneshot
+ExecStart=/bin/mount -t selinuxfs selinuxfs /sys/fs/selinux
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sysinit.target

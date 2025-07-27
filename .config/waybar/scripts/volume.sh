@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Получаем текущую громкость через pactl
-volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}' | tr -d '%')
-
-# Проверка, отключён ли звук
-mute=$(pactl get-sink-mute @DEFAULT_SINK@ | awk '{print $2}')
+# Получаем текущую громкость через wpctl
+volume_line=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
+volume=$(echo "$volume_line" | awk '{print int($2 * 100)}')
+mute=$(echo "$volume_line" | grep -q MUTED && echo "yes" || echo "no")
 
 if [ "$mute" = "yes" ]; then
-    echo "| 󰖁"
+  echo "| 󰖁"
 else
-    echo "| 󰕾 : ${volume}%"
+  echo "| 󰕾 : ${volume}%"
 fi
